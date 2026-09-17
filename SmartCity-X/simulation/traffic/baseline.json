@@ -1,0 +1,19 @@
+{
+    "simulation": {
+        "duration_steps": 300,
+        "traffic_light": "junction"
+    },
+    "normal_traffic": {
+        "maximum_queue": 11,
+        "maximum_average_wait": 16.73,
+        "overall_average_wait": 7.4
+    },
+    "traffic_light": {
+        "phase_frequency": {
+            "0": 156,
+            "1": 9,
+            "2": 126,
+            "3": 9
+        }
+    }
+}

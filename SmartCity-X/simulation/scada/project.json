@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "name": "SmartCity_SCADA",
+    "type": "plc-project"
+  },
+  "data": {
+    "dataTypes": [],
+    "pous": [],
+    "configuration": {
+      "resource": {
+        "tasks": [
+          {
+            "name": "task0",
+            "triggering": "Cyclic",
+            "interval": "T#20ms",
+            "priority": 1
+          }
+        ],
+        "instances": [
+          {
+            "name": "instance0",
+            "program": "main",
+            "task": "task0"
+          }
+        ],
+        "globalVariables": []
+      }
+    },
+    "libraries": [],
+    "debugVariables": {
+      "pous": {
+        "main": [
+          "Breaker_Command",
+          "Breaker_Status",
+          "Grid_Online",
+          "Emergency",
+          "Load_Percent",
+          "Voltage_kV",
+          "Frequency_Hz"
+        ]
+      }
+    }
+  }
+}

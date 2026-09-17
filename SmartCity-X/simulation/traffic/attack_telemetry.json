@@ -1,0 +1,2402 @@
+[
+    {
+        "time": 0,
+        "phase": 0,
+        "active_vehicles": 1,
+        "waiting_vehicles": 0,
+        "average_wait": 0.0,
+        "attack_active": false
+    },
+    {
+        "time": 1,
+        "phase": 0,
+        "active_vehicles": 1,
+        "waiting_vehicles": 0,
+        "average_wait": 0.0,
+        "attack_active": false
+    },
+    {
+        "time": 2,
+        "phase": 0,
+        "active_vehicles": 1,
+        "waiting_vehicles": 0,
+        "average_wait": 0.0,
+        "attack_active": false
+    },
+    {
+        "time": 3,
+        "phase": 0,
+        "active_vehicles": 2,
+        "waiting_vehicles": 0,
+        "average_wait": 0.0,
+        "attack_active": false
+    },
+    {
+        "time": 4,
+        "phase": 0,
+        "active_vehicles": 2,
+        "waiting_vehicles": 0,
+        "average_wait": 0.0,
+        "attack_active": false
+    },
+    {
+        "time": 5,
+        "phase": 0,
+        "active_vehicles": 2,
+        "waiting_vehicles": 0,
+        "average_wait": 0.0,
+        "attack_active": false
+    },
+    {
+        "time": 6,
+        "phase": 0,
+        "active_vehicles": 3,
+        "waiting_vehicles": 0,
+        "average_wait": 0.0,
+        "attack_active": false
+    },
+    {
+        "time": 7,
+        "phase": 0,
+        "active_vehicles": 3,
+        "waiting_vehicles": 0,
+        "average_wait": 0.0,
+        "attack_active": false
+    },
+    {
+        "time": 8,
+        "phase": 0,
+        "active_vehicles": 3,
+        "waiting_vehicles": 0,
+        "average_wait": 0.0,
+        "attack_active": false
+    },
+    {
+        "time": 9,
+        "phase": 0,
+        "active_vehicles": 4,
+        "waiting_vehicles": 0,
+        "average_wait": 0.0,
+        "attack_active": false
+    },
+    {
+        "time": 10,
+        "phase": 0,
+        "active_vehicles": 4,
+        "waiting_vehicles": 0,
+        "average_wait": 0.0,
+        "attack_active": false
+    },
+    {
+        "time": 11,
+        "phase": 0,
+        "active_vehicles": 4,
+        "waiting_vehicles": 0,
+        "average_wait": 0.0,
+        "attack_active": false
+    },
+    {
+        "time": 12,
+        "phase": 0,
+        "active_vehicles": 5,
+        "waiting_vehicles": 0,
+        "average_wait": 0.0,
+        "attack_active": false
+    },
+    {
+        "time": 13,
+        "phase": 0,
+        "active_vehicles": 5,
+        "waiting_vehicles": 0,
+        "average_wait": 0.0,
+        "attack_active": false
+    },
+    {
+        "time": 14,
+        "phase": 0,
+        "active_vehicles": 5,
+        "waiting_vehicles": 0,
+        "average_wait": 0.0,
+        "attack_active": false
+    },
+    {
+        "time": 15,
+        "phase": 0,
+        "active_vehicles": 6,
+        "waiting_vehicles": 0,
+        "average_wait": 0.0,
+        "attack_active": false
+    },
+    {
+        "time": 16,
+        "phase": 0,
+        "active_vehicles": 5,
+        "waiting_vehicles": 0,
+        "average_wait": 0.0,
+        "attack_active": false
+    },
+    {
+        "time": 17,
+        "phase": 0,
+        "active_vehicles": 5,
+        "waiting_vehicles": 0,
+        "average_wait": 0.0,
+        "attack_active": false
+    },
+    {
+        "time": 18,
+        "phase": 0,
+        "active_vehicles": 6,
+        "waiting_vehicles": 1,
+        "average_wait": 0.17,
+        "attack_active": false
+    },
+    {
+        "time": 19,
+        "phase": 0,
+        "active_vehicles": 6,
+        "waiting_vehicles": 1,
+        "average_wait": 0.33,
+        "attack_active": false
+    },
+    {
+        "time": 20,
+        "phase": 0,
+        "active_vehicles": 6,
+        "waiting_vehicles": 1,
+        "average_wait": 0.5,
+        "attack_active": false
+    },
+    {
+        "time": 21,
+        "phase": 0,
+        "active_vehicles": 6,
+        "waiting_vehicles": 1,
+        "average_wait": 0.67,
+        "attack_active": false
+    },
+    {
+        "time": 22,
+        "phase": 0,
+        "active_vehicles": 6,
+        "waiting_vehicles": 1,
+        "average_wait": 0.83,
+        "attack_active": false
+    },
+    {
+        "time": 23,
+        "phase": 0,
+        "active_vehicles": 5,
+        "waiting_vehicles": 1,
+        "average_wait": 1.2,
+        "attack_active": false
+    },
+    {
+        "time": 24,
+        "phase": 0,
+        "active_vehicles": 6,
+        "waiting_vehicles": 1,
+        "average_wait": 1.17,
+        "attack_active": false
+    },
+    {
+        "time": 25,
+        "phase": 0,
+        "active_vehicles": 6,
+        "waiting_vehicles": 1,
+        "average_wait": 1.33,
+        "attack_active": false
+    },
+    {
+        "time": 26,
+        "phase": 0,
+        "active_vehicles": 6,
+        "waiting_vehicles": 1,
+        "average_wait": 1.5,
+        "attack_active": false
+    },
+    {
+        "time": 27,
+        "phase": 0,
+        "active_vehicles": 7,
+        "waiting_vehicles": 2,
+        "average_wait": 1.57,
+        "attack_active": false
+    },
+    {
+        "time": 28,
+        "phase": 0,
+        "active_vehicles": 6,
+        "waiting_vehicles": 2,
+        "average_wait": 2.17,
+        "attack_active": false
+    },
+    {
+        "time": 29,
+        "phase": 0,
+        "active_vehicles": 6,
+        "waiting_vehicles": 3,
+        "average_wait": 2.67,
+        "attack_active": false
+    },
+    {
+        "time": 30,
+        "phase": 0,
+        "active_vehicles": 7,
+        "waiting_vehicles": 3,
+        "average_wait": 2.71,
+        "attack_active": false
+    },
+    {
+        "time": 31,
+        "phase": 0,
+        "active_vehicles": 7,
+        "waiting_vehicles": 3,
+        "average_wait": 3.14,
+        "attack_active": false
+    },
+    {
+        "time": 32,
+        "phase": 0,
+        "active_vehicles": 7,
+        "waiting_vehicles": 3,
+        "average_wait": 3.57,
+        "attack_active": false
+    },
+    {
+        "time": 33,
+        "phase": 0,
+        "active_vehicles": 8,
+        "waiting_vehicles": 3,
+        "average_wait": 3.5,
+        "attack_active": false
+    },
+    {
+        "time": 34,
+        "phase": 0,
+        "active_vehicles": 8,
+        "waiting_vehicles": 4,
+        "average_wait": 4.0,
+        "attack_active": false
+    },
+    {
+        "time": 35,
+        "phase": 0,
+        "active_vehicles": 8,
+        "waiting_vehicles": 4,
+        "average_wait": 4.5,
+        "attack_active": false
+    },
+    {
+        "time": 36,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 4,
+        "average_wait": 4.44,
+        "attack_active": false
+    },
+    {
+        "time": 37,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 4,
+        "average_wait": 4.89,
+        "attack_active": false
+    },
+    {
+        "time": 38,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 4,
+        "average_wait": 5.33,
+        "attack_active": false
+    },
+    {
+        "time": 39,
+        "phase": 0,
+        "active_vehicles": 10,
+        "waiting_vehicles": 4,
+        "average_wait": 5.2,
+        "attack_active": false
+    },
+    {
+        "time": 40,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 5,
+        "average_wait": 6.33,
+        "attack_active": false
+    },
+    {
+        "time": 41,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 6,
+        "average_wait": 7.0,
+        "attack_active": false
+    },
+    {
+        "time": 42,
+        "phase": 1,
+        "active_vehicles": 10,
+        "waiting_vehicles": 6,
+        "average_wait": 6.9,
+        "attack_active": false
+    },
+    {
+        "time": 43,
+        "phase": 1,
+        "active_vehicles": 10,
+        "waiting_vehicles": 6,
+        "average_wait": 7.5,
+        "attack_active": false
+    },
+    {
+        "time": 44,
+        "phase": 1,
+        "active_vehicles": 10,
+        "waiting_vehicles": 6,
+        "average_wait": 8.1,
+        "attack_active": false
+    },
+    {
+        "time": 45,
+        "phase": 2,
+        "active_vehicles": 11,
+        "waiting_vehicles": 7,
+        "average_wait": 7.73,
+        "attack_active": false
+    },
+    {
+        "time": 46,
+        "phase": 2,
+        "active_vehicles": 11,
+        "waiting_vehicles": 7,
+        "average_wait": 7.82,
+        "attack_active": false
+    },
+    {
+        "time": 47,
+        "phase": 2,
+        "active_vehicles": 11,
+        "waiting_vehicles": 7,
+        "average_wait": 7.91,
+        "attack_active": false
+    },
+    {
+        "time": 48,
+        "phase": 2,
+        "active_vehicles": 12,
+        "waiting_vehicles": 7,
+        "average_wait": 7.42,
+        "attack_active": false
+    },
+    {
+        "time": 49,
+        "phase": 2,
+        "active_vehicles": 11,
+        "waiting_vehicles": 7,
+        "average_wait": 8.18,
+        "attack_active": false
+    },
+    {
+        "time": 50,
+        "phase": 2,
+        "active_vehicles": 11,
+        "waiting_vehicles": 7,
+        "average_wait": 8.18,
+        "attack_active": false
+    },
+    {
+        "time": 51,
+        "phase": 2,
+        "active_vehicles": 12,
+        "waiting_vehicles": 7,
+        "average_wait": 7.5,
+        "attack_active": false
+    },
+    {
+        "time": 52,
+        "phase": 2,
+        "active_vehicles": 12,
+        "waiting_vehicles": 7,
+        "average_wait": 7.5,
+        "attack_active": false
+    },
+    {
+        "time": 53,
+        "phase": 2,
+        "active_vehicles": 12,
+        "waiting_vehicles": 7,
+        "average_wait": 7.5,
+        "attack_active": false
+    },
+    {
+        "time": 54,
+        "phase": 2,
+        "active_vehicles": 13,
+        "waiting_vehicles": 7,
+        "average_wait": 6.92,
+        "attack_active": false
+    },
+    {
+        "time": 55,
+        "phase": 2,
+        "active_vehicles": 12,
+        "waiting_vehicles": 6,
+        "average_wait": 5.25,
+        "attack_active": false
+    },
+    {
+        "time": 56,
+        "phase": 2,
+        "active_vehicles": 12,
+        "waiting_vehicles": 6,
+        "average_wait": 5.25,
+        "attack_active": false
+    },
+    {
+        "time": 57,
+        "phase": 2,
+        "active_vehicles": 11,
+        "waiting_vehicles": 4,
+        "average_wait": 4.82,
+        "attack_active": false
+    },
+    {
+        "time": 58,
+        "phase": 2,
+        "active_vehicles": 10,
+        "waiting_vehicles": 3,
+        "average_wait": 5.2,
+        "attack_active": false
+    },
+    {
+        "time": 59,
+        "phase": 2,
+        "active_vehicles": 10,
+        "waiting_vehicles": 4,
+        "average_wait": 5.3,
+        "attack_active": false
+    },
+    {
+        "time": 60,
+        "phase": 2,
+        "active_vehicles": 10,
+        "waiting_vehicles": 3,
+        "average_wait": 3.5,
+        "attack_active": false
+    },
+    {
+        "time": 61,
+        "phase": 2,
+        "active_vehicles": 9,
+        "waiting_vehicles": 2,
+        "average_wait": 1.78,
+        "attack_active": false
+    },
+    {
+        "time": 62,
+        "phase": 2,
+        "active_vehicles": 8,
+        "waiting_vehicles": 3,
+        "average_wait": 2.25,
+        "attack_active": false
+    },
+    {
+        "time": 63,
+        "phase": 2,
+        "active_vehicles": 9,
+        "waiting_vehicles": 3,
+        "average_wait": 2.22,
+        "attack_active": false
+    },
+    {
+        "time": 64,
+        "phase": 2,
+        "active_vehicles": 8,
+        "waiting_vehicles": 2,
+        "average_wait": 1.12,
+        "attack_active": false
+    },
+    {
+        "time": 65,
+        "phase": 2,
+        "active_vehicles": 7,
+        "waiting_vehicles": 2,
+        "average_wait": 1.57,
+        "attack_active": false
+    },
+    {
+        "time": 66,
+        "phase": 2,
+        "active_vehicles": 7,
+        "waiting_vehicles": 2,
+        "average_wait": 1.86,
+        "attack_active": false
+    },
+    {
+        "time": 67,
+        "phase": 2,
+        "active_vehicles": 7,
+        "waiting_vehicles": 2,
+        "average_wait": 2.14,
+        "attack_active": false
+    },
+    {
+        "time": 68,
+        "phase": 2,
+        "active_vehicles": 7,
+        "waiting_vehicles": 2,
+        "average_wait": 2.43,
+        "attack_active": false
+    },
+    {
+        "time": 69,
+        "phase": 2,
+        "active_vehicles": 8,
+        "waiting_vehicles": 2,
+        "average_wait": 2.38,
+        "attack_active": false
+    },
+    {
+        "time": 70,
+        "phase": 2,
+        "active_vehicles": 8,
+        "waiting_vehicles": 3,
+        "average_wait": 2.75,
+        "attack_active": false
+    },
+    {
+        "time": 71,
+        "phase": 2,
+        "active_vehicles": 8,
+        "waiting_vehicles": 3,
+        "average_wait": 3.12,
+        "attack_active": false
+    },
+    {
+        "time": 72,
+        "phase": 2,
+        "active_vehicles": 8,
+        "waiting_vehicles": 3,
+        "average_wait": 3.5,
+        "attack_active": false
+    },
+    {
+        "time": 73,
+        "phase": 2,
+        "active_vehicles": 8,
+        "waiting_vehicles": 3,
+        "average_wait": 3.88,
+        "attack_active": false
+    },
+    {
+        "time": 74,
+        "phase": 2,
+        "active_vehicles": 7,
+        "waiting_vehicles": 3,
+        "average_wait": 4.86,
+        "attack_active": false
+    },
+    {
+        "time": 75,
+        "phase": 2,
+        "active_vehicles": 8,
+        "waiting_vehicles": 3,
+        "average_wait": 4.62,
+        "attack_active": false
+    },
+    {
+        "time": 76,
+        "phase": 2,
+        "active_vehicles": 8,
+        "waiting_vehicles": 3,
+        "average_wait": 5.0,
+        "attack_active": false
+    },
+    {
+        "time": 77,
+        "phase": 2,
+        "active_vehicles": 8,
+        "waiting_vehicles": 3,
+        "average_wait": 5.38,
+        "attack_active": false
+    },
+    {
+        "time": 78,
+        "phase": 2,
+        "active_vehicles": 9,
+        "waiting_vehicles": 3,
+        "average_wait": 5.11,
+        "attack_active": false
+    },
+    {
+        "time": 79,
+        "phase": 2,
+        "active_vehicles": 9,
+        "waiting_vehicles": 3,
+        "average_wait": 5.44,
+        "attack_active": false
+    },
+    {
+        "time": 80,
+        "phase": 2,
+        "active_vehicles": 8,
+        "waiting_vehicles": 3,
+        "average_wait": 6.5,
+        "attack_active": false
+    },
+    {
+        "time": 81,
+        "phase": 2,
+        "active_vehicles": 9,
+        "waiting_vehicles": 3,
+        "average_wait": 6.11,
+        "attack_active": false
+    },
+    {
+        "time": 82,
+        "phase": 2,
+        "active_vehicles": 9,
+        "waiting_vehicles": 3,
+        "average_wait": 6.44,
+        "attack_active": false
+    },
+    {
+        "time": 83,
+        "phase": 2,
+        "active_vehicles": 9,
+        "waiting_vehicles": 3,
+        "average_wait": 6.78,
+        "attack_active": false
+    },
+    {
+        "time": 84,
+        "phase": 2,
+        "active_vehicles": 10,
+        "waiting_vehicles": 3,
+        "average_wait": 6.4,
+        "attack_active": false
+    },
+    {
+        "time": 85,
+        "phase": 2,
+        "active_vehicles": 10,
+        "waiting_vehicles": 3,
+        "average_wait": 6.7,
+        "attack_active": false
+    },
+    {
+        "time": 86,
+        "phase": 2,
+        "active_vehicles": 9,
+        "waiting_vehicles": 4,
+        "average_wait": 7.89,
+        "attack_active": false
+    },
+    {
+        "time": 87,
+        "phase": 3,
+        "active_vehicles": 9,
+        "waiting_vehicles": 5,
+        "average_wait": 8.44,
+        "attack_active": false
+    },
+    {
+        "time": 88,
+        "phase": 3,
+        "active_vehicles": 9,
+        "waiting_vehicles": 5,
+        "average_wait": 9.0,
+        "attack_active": false
+    },
+    {
+        "time": 89,
+        "phase": 3,
+        "active_vehicles": 9,
+        "waiting_vehicles": 5,
+        "average_wait": 9.56,
+        "attack_active": false
+    },
+    {
+        "time": 90,
+        "phase": 0,
+        "active_vehicles": 10,
+        "waiting_vehicles": 5,
+        "average_wait": 8.7,
+        "attack_active": false
+    },
+    {
+        "time": 91,
+        "phase": 0,
+        "active_vehicles": 10,
+        "waiting_vehicles": 5,
+        "average_wait": 8.7,
+        "attack_active": false
+    },
+    {
+        "time": 92,
+        "phase": 0,
+        "active_vehicles": 10,
+        "waiting_vehicles": 5,
+        "average_wait": 8.8,
+        "attack_active": false
+    },
+    {
+        "time": 93,
+        "phase": 0,
+        "active_vehicles": 11,
+        "waiting_vehicles": 6,
+        "average_wait": 8.18,
+        "attack_active": false
+    },
+    {
+        "time": 94,
+        "phase": 0,
+        "active_vehicles": 11,
+        "waiting_vehicles": 6,
+        "average_wait": 8.36,
+        "attack_active": false
+    },
+    {
+        "time": 95,
+        "phase": 0,
+        "active_vehicles": 11,
+        "waiting_vehicles": 7,
+        "average_wait": 8.55,
+        "attack_active": false
+    },
+    {
+        "time": 96,
+        "phase": 0,
+        "active_vehicles": 12,
+        "waiting_vehicles": 7,
+        "average_wait": 7.92,
+        "attack_active": false
+    },
+    {
+        "time": 97,
+        "phase": 0,
+        "active_vehicles": 12,
+        "waiting_vehicles": 7,
+        "average_wait": 8.0,
+        "attack_active": false
+    },
+    {
+        "time": 98,
+        "phase": 0,
+        "active_vehicles": 12,
+        "waiting_vehicles": 7,
+        "average_wait": 8.08,
+        "attack_active": false
+    },
+    {
+        "time": 99,
+        "phase": 0,
+        "active_vehicles": 13,
+        "waiting_vehicles": 8,
+        "average_wait": 7.62,
+        "attack_active": false
+    },
+    {
+        "time": 100,
+        "phase": 0,
+        "active_vehicles": 12,
+        "waiting_vehicles": 8,
+        "average_wait": 6.83,
+        "attack_active": true
+    },
+    {
+        "time": 101,
+        "phase": 0,
+        "active_vehicles": 11,
+        "waiting_vehicles": 7,
+        "average_wait": 5.18,
+        "attack_active": true
+    },
+    {
+        "time": 102,
+        "phase": 0,
+        "active_vehicles": 11,
+        "waiting_vehicles": 6,
+        "average_wait": 5.18,
+        "attack_active": true
+    },
+    {
+        "time": 103,
+        "phase": 0,
+        "active_vehicles": 11,
+        "waiting_vehicles": 6,
+        "average_wait": 5.45,
+        "attack_active": true
+    },
+    {
+        "time": 104,
+        "phase": 0,
+        "active_vehicles": 10,
+        "waiting_vehicles": 6,
+        "average_wait": 6.3,
+        "attack_active": true
+    },
+    {
+        "time": 105,
+        "phase": 0,
+        "active_vehicles": 10,
+        "waiting_vehicles": 5,
+        "average_wait": 6.1,
+        "attack_active": true
+    },
+    {
+        "time": 106,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 5,
+        "average_wait": 3.44,
+        "attack_active": true
+    },
+    {
+        "time": 107,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 5,
+        "average_wait": 3.89,
+        "attack_active": true
+    },
+    {
+        "time": 108,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 4,
+        "average_wait": 4.22,
+        "attack_active": true
+    },
+    {
+        "time": 109,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 4,
+        "average_wait": 4.67,
+        "attack_active": true
+    },
+    {
+        "time": 110,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 5,
+        "average_wait": 5.22,
+        "attack_active": true
+    },
+    {
+        "time": 111,
+        "phase": 0,
+        "active_vehicles": 10,
+        "waiting_vehicles": 5,
+        "average_wait": 5.2,
+        "attack_active": true
+    },
+    {
+        "time": 112,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 5,
+        "average_wait": 6.33,
+        "attack_active": true
+    },
+    {
+        "time": 113,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 5,
+        "average_wait": 6.89,
+        "attack_active": true
+    },
+    {
+        "time": 114,
+        "phase": 0,
+        "active_vehicles": 10,
+        "waiting_vehicles": 5,
+        "average_wait": 6.7,
+        "attack_active": true
+    },
+    {
+        "time": 115,
+        "phase": 0,
+        "active_vehicles": 10,
+        "waiting_vehicles": 5,
+        "average_wait": 7.2,
+        "attack_active": true
+    },
+    {
+        "time": 116,
+        "phase": 0,
+        "active_vehicles": 10,
+        "waiting_vehicles": 6,
+        "average_wait": 7.8,
+        "attack_active": true
+    },
+    {
+        "time": 117,
+        "phase": 0,
+        "active_vehicles": 11,
+        "waiting_vehicles": 6,
+        "average_wait": 7.64,
+        "attack_active": true
+    },
+    {
+        "time": 118,
+        "phase": 0,
+        "active_vehicles": 11,
+        "waiting_vehicles": 6,
+        "average_wait": 8.18,
+        "attack_active": true
+    },
+    {
+        "time": 119,
+        "phase": 0,
+        "active_vehicles": 11,
+        "waiting_vehicles": 6,
+        "average_wait": 8.73,
+        "attack_active": true
+    },
+    {
+        "time": 120,
+        "phase": 0,
+        "active_vehicles": 11,
+        "waiting_vehicles": 6,
+        "average_wait": 9.27,
+        "attack_active": true
+    },
+    {
+        "time": 121,
+        "phase": 0,
+        "active_vehicles": 11,
+        "waiting_vehicles": 7,
+        "average_wait": 9.91,
+        "attack_active": true
+    },
+    {
+        "time": 122,
+        "phase": 0,
+        "active_vehicles": 11,
+        "waiting_vehicles": 7,
+        "average_wait": 10.55,
+        "attack_active": true
+    },
+    {
+        "time": 123,
+        "phase": 0,
+        "active_vehicles": 12,
+        "waiting_vehicles": 7,
+        "average_wait": 10.25,
+        "attack_active": true
+    },
+    {
+        "time": 124,
+        "phase": 0,
+        "active_vehicles": 11,
+        "waiting_vehicles": 7,
+        "average_wait": 11.82,
+        "attack_active": true
+    },
+    {
+        "time": 125,
+        "phase": 0,
+        "active_vehicles": 11,
+        "waiting_vehicles": 8,
+        "average_wait": 12.55,
+        "attack_active": true
+    },
+    {
+        "time": 126,
+        "phase": 0,
+        "active_vehicles": 12,
+        "waiting_vehicles": 8,
+        "average_wait": 12.17,
+        "attack_active": true
+    },
+    {
+        "time": 127,
+        "phase": 0,
+        "active_vehicles": 12,
+        "waiting_vehicles": 8,
+        "average_wait": 12.83,
+        "attack_active": true
+    },
+    {
+        "time": 128,
+        "phase": 0,
+        "active_vehicles": 12,
+        "waiting_vehicles": 9,
+        "average_wait": 13.58,
+        "attack_active": true
+    },
+    {
+        "time": 129,
+        "phase": 0,
+        "active_vehicles": 13,
+        "waiting_vehicles": 9,
+        "average_wait": 13.15,
+        "attack_active": true
+    },
+    {
+        "time": 130,
+        "phase": 0,
+        "active_vehicles": 13,
+        "waiting_vehicles": 9,
+        "average_wait": 13.77,
+        "attack_active": true
+    },
+    {
+        "time": 131,
+        "phase": 0,
+        "active_vehicles": 13,
+        "waiting_vehicles": 9,
+        "average_wait": 14.38,
+        "attack_active": true
+    },
+    {
+        "time": 132,
+        "phase": 0,
+        "active_vehicles": 14,
+        "waiting_vehicles": 9,
+        "average_wait": 13.93,
+        "attack_active": true
+    },
+    {
+        "time": 133,
+        "phase": 0,
+        "active_vehicles": 14,
+        "waiting_vehicles": 9,
+        "average_wait": 14.5,
+        "attack_active": true
+    },
+    {
+        "time": 134,
+        "phase": 0,
+        "active_vehicles": 14,
+        "waiting_vehicles": 9,
+        "average_wait": 15.07,
+        "attack_active": true
+    },
+    {
+        "time": 135,
+        "phase": 0,
+        "active_vehicles": 14,
+        "waiting_vehicles": 9,
+        "average_wait": 15.64,
+        "attack_active": true
+    },
+    {
+        "time": 136,
+        "phase": 0,
+        "active_vehicles": 14,
+        "waiting_vehicles": 9,
+        "average_wait": 16.21,
+        "attack_active": true
+    },
+    {
+        "time": 137,
+        "phase": 0,
+        "active_vehicles": 14,
+        "waiting_vehicles": 9,
+        "average_wait": 16.79,
+        "attack_active": true
+    },
+    {
+        "time": 138,
+        "phase": 0,
+        "active_vehicles": 15,
+        "waiting_vehicles": 9,
+        "average_wait": 16.2,
+        "attack_active": true
+    },
+    {
+        "time": 139,
+        "phase": 0,
+        "active_vehicles": 15,
+        "waiting_vehicles": 9,
+        "average_wait": 16.73,
+        "attack_active": true
+    },
+    {
+        "time": 140,
+        "phase": 0,
+        "active_vehicles": 14,
+        "waiting_vehicles": 8,
+        "average_wait": 18.43,
+        "attack_active": true
+    },
+    {
+        "time": 141,
+        "phase": 0,
+        "active_vehicles": 14,
+        "waiting_vehicles": 9,
+        "average_wait": 19.07,
+        "attack_active": true
+    },
+    {
+        "time": 142,
+        "phase": 0,
+        "active_vehicles": 13,
+        "waiting_vehicles": 9,
+        "average_wait": 21.23,
+        "attack_active": true
+    },
+    {
+        "time": 143,
+        "phase": 0,
+        "active_vehicles": 13,
+        "waiting_vehicles": 9,
+        "average_wait": 21.92,
+        "attack_active": true
+    },
+    {
+        "time": 144,
+        "phase": 0,
+        "active_vehicles": 14,
+        "waiting_vehicles": 9,
+        "average_wait": 21.0,
+        "attack_active": true
+    },
+    {
+        "time": 145,
+        "phase": 0,
+        "active_vehicles": 14,
+        "waiting_vehicles": 10,
+        "average_wait": 21.71,
+        "attack_active": true
+    },
+    {
+        "time": 146,
+        "phase": 0,
+        "active_vehicles": 14,
+        "waiting_vehicles": 10,
+        "average_wait": 22.43,
+        "attack_active": true
+    },
+    {
+        "time": 147,
+        "phase": 0,
+        "active_vehicles": 15,
+        "waiting_vehicles": 11,
+        "average_wait": 21.67,
+        "attack_active": true
+    },
+    {
+        "time": 148,
+        "phase": 0,
+        "active_vehicles": 15,
+        "waiting_vehicles": 11,
+        "average_wait": 22.4,
+        "attack_active": true
+    },
+    {
+        "time": 149,
+        "phase": 0,
+        "active_vehicles": 15,
+        "waiting_vehicles": 12,
+        "average_wait": 23.2,
+        "attack_active": true
+    },
+    {
+        "time": 150,
+        "phase": 0,
+        "active_vehicles": 16,
+        "waiting_vehicles": 12,
+        "average_wait": 22.5,
+        "attack_active": true
+    },
+    {
+        "time": 151,
+        "phase": 0,
+        "active_vehicles": 16,
+        "waiting_vehicles": 12,
+        "average_wait": 23.25,
+        "attack_active": true
+    },
+    {
+        "time": 152,
+        "phase": 0,
+        "active_vehicles": 16,
+        "waiting_vehicles": 13,
+        "average_wait": 24.06,
+        "attack_active": true
+    },
+    {
+        "time": 153,
+        "phase": 0,
+        "active_vehicles": 17,
+        "waiting_vehicles": 13,
+        "average_wait": 23.41,
+        "attack_active": true
+    },
+    {
+        "time": 154,
+        "phase": 0,
+        "active_vehicles": 17,
+        "waiting_vehicles": 13,
+        "average_wait": 24.18,
+        "attack_active": true
+    },
+    {
+        "time": 155,
+        "phase": 0,
+        "active_vehicles": 17,
+        "waiting_vehicles": 13,
+        "average_wait": 24.94,
+        "attack_active": true
+    },
+    {
+        "time": 156,
+        "phase": 0,
+        "active_vehicles": 18,
+        "waiting_vehicles": 14,
+        "average_wait": 24.33,
+        "attack_active": true
+    },
+    {
+        "time": 157,
+        "phase": 0,
+        "active_vehicles": 18,
+        "waiting_vehicles": 15,
+        "average_wait": 25.17,
+        "attack_active": true
+    },
+    {
+        "time": 158,
+        "phase": 0,
+        "active_vehicles": 18,
+        "waiting_vehicles": 15,
+        "average_wait": 26.0,
+        "attack_active": true
+    },
+    {
+        "time": 159,
+        "phase": 0,
+        "active_vehicles": 19,
+        "waiting_vehicles": 15,
+        "average_wait": 25.42,
+        "attack_active": true
+    },
+    {
+        "time": 160,
+        "phase": 0,
+        "active_vehicles": 19,
+        "waiting_vehicles": 16,
+        "average_wait": 26.26,
+        "attack_active": true
+    },
+    {
+        "time": 161,
+        "phase": 0,
+        "active_vehicles": 19,
+        "waiting_vehicles": 16,
+        "average_wait": 27.11,
+        "attack_active": true
+    },
+    {
+        "time": 162,
+        "phase": 0,
+        "active_vehicles": 20,
+        "waiting_vehicles": 16,
+        "average_wait": 26.55,
+        "attack_active": true
+    },
+    {
+        "time": 163,
+        "phase": 0,
+        "active_vehicles": 20,
+        "waiting_vehicles": 17,
+        "average_wait": 27.4,
+        "attack_active": true
+    },
+    {
+        "time": 164,
+        "phase": 0,
+        "active_vehicles": 20,
+        "waiting_vehicles": 17,
+        "average_wait": 28.2,
+        "attack_active": true
+    },
+    {
+        "time": 165,
+        "phase": 0,
+        "active_vehicles": 21,
+        "waiting_vehicles": 17,
+        "average_wait": 27.62,
+        "attack_active": true
+    },
+    {
+        "time": 166,
+        "phase": 0,
+        "active_vehicles": 21,
+        "waiting_vehicles": 17,
+        "average_wait": 28.38,
+        "attack_active": true
+    },
+    {
+        "time": 167,
+        "phase": 0,
+        "active_vehicles": 21,
+        "waiting_vehicles": 17,
+        "average_wait": 29.14,
+        "attack_active": true
+    },
+    {
+        "time": 168,
+        "phase": 0,
+        "active_vehicles": 22,
+        "waiting_vehicles": 17,
+        "average_wait": 28.55,
+        "attack_active": true
+    },
+    {
+        "time": 169,
+        "phase": 0,
+        "active_vehicles": 22,
+        "waiting_vehicles": 17,
+        "average_wait": 29.27,
+        "attack_active": true
+    },
+    {
+        "time": 170,
+        "phase": 0,
+        "active_vehicles": 22,
+        "waiting_vehicles": 18,
+        "average_wait": 30.05,
+        "attack_active": true
+    },
+    {
+        "time": 171,
+        "phase": 0,
+        "active_vehicles": 22,
+        "waiting_vehicles": 18,
+        "average_wait": 30.82,
+        "attack_active": true
+    },
+    {
+        "time": 172,
+        "phase": 0,
+        "active_vehicles": 22,
+        "waiting_vehicles": 18,
+        "average_wait": 31.59,
+        "attack_active": true
+    },
+    {
+        "time": 173,
+        "phase": 0,
+        "active_vehicles": 21,
+        "waiting_vehicles": 17,
+        "average_wait": 33.86,
+        "attack_active": true
+    },
+    {
+        "time": 174,
+        "phase": 0,
+        "active_vehicles": 22,
+        "waiting_vehicles": 18,
+        "average_wait": 33.14,
+        "attack_active": true
+    },
+    {
+        "time": 175,
+        "phase": 0,
+        "active_vehicles": 22,
+        "waiting_vehicles": 18,
+        "average_wait": 33.95,
+        "attack_active": true
+    },
+    {
+        "time": 176,
+        "phase": 0,
+        "active_vehicles": 22,
+        "waiting_vehicles": 18,
+        "average_wait": 34.77,
+        "attack_active": true
+    },
+    {
+        "time": 177,
+        "phase": 0,
+        "active_vehicles": 23,
+        "waiting_vehicles": 18,
+        "average_wait": 34.04,
+        "attack_active": true
+    },
+    {
+        "time": 178,
+        "phase": 0,
+        "active_vehicles": 23,
+        "waiting_vehicles": 18,
+        "average_wait": 34.83,
+        "attack_active": true
+    },
+    {
+        "time": 179,
+        "phase": 0,
+        "active_vehicles": 22,
+        "waiting_vehicles": 18,
+        "average_wait": 37.23,
+        "attack_active": true
+    },
+    {
+        "time": 180,
+        "phase": 0,
+        "active_vehicles": 23,
+        "waiting_vehicles": 19,
+        "average_wait": 36.43,
+        "attack_active": false
+    },
+    {
+        "time": 181,
+        "phase": 0,
+        "active_vehicles": 23,
+        "waiting_vehicles": 19,
+        "average_wait": 37.26,
+        "attack_active": false
+    },
+    {
+        "time": 182,
+        "phase": 0,
+        "active_vehicles": 23,
+        "waiting_vehicles": 19,
+        "average_wait": 38.09,
+        "attack_active": false
+    },
+    {
+        "time": 183,
+        "phase": 0,
+        "active_vehicles": 24,
+        "waiting_vehicles": 19,
+        "average_wait": 37.29,
+        "attack_active": false
+    },
+    {
+        "time": 184,
+        "phase": 0,
+        "active_vehicles": 24,
+        "waiting_vehicles": 19,
+        "average_wait": 38.08,
+        "attack_active": false
+    },
+    {
+        "time": 185,
+        "phase": 0,
+        "active_vehicles": 24,
+        "waiting_vehicles": 19,
+        "average_wait": 38.88,
+        "attack_active": false
+    },
+    {
+        "time": 186,
+        "phase": 0,
+        "active_vehicles": 25,
+        "waiting_vehicles": 19,
+        "average_wait": 38.08,
+        "attack_active": false
+    },
+    {
+        "time": 187,
+        "phase": 0,
+        "active_vehicles": 24,
+        "waiting_vehicles": 19,
+        "average_wait": 40.46,
+        "attack_active": false
+    },
+    {
+        "time": 188,
+        "phase": 0,
+        "active_vehicles": 24,
+        "waiting_vehicles": 19,
+        "average_wait": 41.25,
+        "attack_active": false
+    },
+    {
+        "time": 189,
+        "phase": 0,
+        "active_vehicles": 24,
+        "waiting_vehicles": 19,
+        "average_wait": 42.04,
+        "attack_active": false
+    },
+    {
+        "time": 190,
+        "phase": 0,
+        "active_vehicles": 24,
+        "waiting_vehicles": 19,
+        "average_wait": 42.83,
+        "attack_active": false
+    },
+    {
+        "time": 191,
+        "phase": 0,
+        "active_vehicles": 24,
+        "waiting_vehicles": 20,
+        "average_wait": 43.67,
+        "attack_active": false
+    },
+    {
+        "time": 192,
+        "phase": 0,
+        "active_vehicles": 25,
+        "waiting_vehicles": 20,
+        "average_wait": 42.72,
+        "attack_active": false
+    },
+    {
+        "time": 193,
+        "phase": 0,
+        "active_vehicles": 25,
+        "waiting_vehicles": 21,
+        "average_wait": 43.52,
+        "attack_active": false
+    },
+    {
+        "time": 194,
+        "phase": 0,
+        "active_vehicles": 25,
+        "waiting_vehicles": 21,
+        "average_wait": 44.32,
+        "attack_active": false
+    },
+    {
+        "time": 195,
+        "phase": 0,
+        "active_vehicles": 25,
+        "waiting_vehicles": 21,
+        "average_wait": 45.12,
+        "attack_active": false
+    },
+    {
+        "time": 196,
+        "phase": 0,
+        "active_vehicles": 25,
+        "waiting_vehicles": 21,
+        "average_wait": 45.92,
+        "attack_active": false
+    },
+    {
+        "time": 197,
+        "phase": 0,
+        "active_vehicles": 25,
+        "waiting_vehicles": 22,
+        "average_wait": 46.76,
+        "attack_active": false
+    },
+    {
+        "time": 198,
+        "phase": 0,
+        "active_vehicles": 26,
+        "waiting_vehicles": 22,
+        "average_wait": 45.77,
+        "attack_active": false
+    },
+    {
+        "time": 199,
+        "phase": 0,
+        "active_vehicles": 26,
+        "waiting_vehicles": 23,
+        "average_wait": 46.58,
+        "attack_active": false
+    },
+    {
+        "time": 200,
+        "phase": 0,
+        "active_vehicles": 26,
+        "waiting_vehicles": 23,
+        "average_wait": 47.35,
+        "attack_active": false
+    },
+    {
+        "time": 201,
+        "phase": 0,
+        "active_vehicles": 27,
+        "waiting_vehicles": 23,
+        "average_wait": 46.33,
+        "attack_active": false
+    },
+    {
+        "time": 202,
+        "phase": 0,
+        "active_vehicles": 27,
+        "waiting_vehicles": 24,
+        "average_wait": 47.11,
+        "attack_active": false
+    },
+    {
+        "time": 203,
+        "phase": 0,
+        "active_vehicles": 27,
+        "waiting_vehicles": 24,
+        "average_wait": 47.89,
+        "attack_active": false
+    },
+    {
+        "time": 204,
+        "phase": 0,
+        "active_vehicles": 28,
+        "waiting_vehicles": 24,
+        "average_wait": 46.93,
+        "attack_active": false
+    },
+    {
+        "time": 205,
+        "phase": 0,
+        "active_vehicles": 28,
+        "waiting_vehicles": 24,
+        "average_wait": 47.68,
+        "attack_active": false
+    },
+    {
+        "time": 206,
+        "phase": 0,
+        "active_vehicles": 28,
+        "waiting_vehicles": 25,
+        "average_wait": 48.43,
+        "attack_active": false
+    },
+    {
+        "time": 207,
+        "phase": 0,
+        "active_vehicles": 29,
+        "waiting_vehicles": 25,
+        "average_wait": 47.48,
+        "attack_active": false
+    },
+    {
+        "time": 208,
+        "phase": 0,
+        "active_vehicles": 29,
+        "waiting_vehicles": 25,
+        "average_wait": 48.21,
+        "attack_active": false
+    },
+    {
+        "time": 209,
+        "phase": 0,
+        "active_vehicles": 29,
+        "waiting_vehicles": 25,
+        "average_wait": 48.93,
+        "attack_active": false
+    },
+    {
+        "time": 210,
+        "phase": 0,
+        "active_vehicles": 30,
+        "waiting_vehicles": 25,
+        "average_wait": 47.97,
+        "attack_active": false
+    },
+    {
+        "time": 211,
+        "phase": 0,
+        "active_vehicles": 30,
+        "waiting_vehicles": 26,
+        "average_wait": 48.67,
+        "attack_active": false
+    },
+    {
+        "time": 212,
+        "phase": 0,
+        "active_vehicles": 30,
+        "waiting_vehicles": 26,
+        "average_wait": 49.37,
+        "attack_active": false
+    },
+    {
+        "time": 213,
+        "phase": 0,
+        "active_vehicles": 31,
+        "waiting_vehicles": 26,
+        "average_wait": 48.45,
+        "attack_active": false
+    },
+    {
+        "time": 214,
+        "phase": 0,
+        "active_vehicles": 30,
+        "waiting_vehicles": 27,
+        "average_wait": 50.8,
+        "attack_active": false
+    },
+    {
+        "time": 215,
+        "phase": 0,
+        "active_vehicles": 30,
+        "waiting_vehicles": 27,
+        "average_wait": 51.53,
+        "attack_active": false
+    },
+    {
+        "time": 216,
+        "phase": 0,
+        "active_vehicles": 31,
+        "waiting_vehicles": 27,
+        "average_wait": 50.55,
+        "attack_active": false
+    },
+    {
+        "time": 217,
+        "phase": 0,
+        "active_vehicles": 31,
+        "waiting_vehicles": 27,
+        "average_wait": 51.23,
+        "attack_active": false
+    },
+    {
+        "time": 218,
+        "phase": 0,
+        "active_vehicles": 31,
+        "waiting_vehicles": 28,
+        "average_wait": 51.94,
+        "attack_active": false
+    },
+    {
+        "time": 219,
+        "phase": 0,
+        "active_vehicles": 32,
+        "waiting_vehicles": 28,
+        "average_wait": 51.0,
+        "attack_active": false
+    },
+    {
+        "time": 220,
+        "phase": 0,
+        "active_vehicles": 32,
+        "waiting_vehicles": 28,
+        "average_wait": 51.69,
+        "attack_active": false
+    },
+    {
+        "time": 221,
+        "phase": 0,
+        "active_vehicles": 32,
+        "waiting_vehicles": 28,
+        "average_wait": 52.34,
+        "attack_active": false
+    },
+    {
+        "time": 222,
+        "phase": 1,
+        "active_vehicles": 33,
+        "waiting_vehicles": 28,
+        "average_wait": 51.39,
+        "attack_active": false
+    },
+    {
+        "time": 223,
+        "phase": 1,
+        "active_vehicles": 33,
+        "waiting_vehicles": 28,
+        "average_wait": 52.03,
+        "attack_active": false
+    },
+    {
+        "time": 224,
+        "phase": 1,
+        "active_vehicles": 33,
+        "waiting_vehicles": 28,
+        "average_wait": 52.67,
+        "attack_active": false
+    },
+    {
+        "time": 225,
+        "phase": 2,
+        "active_vehicles": 33,
+        "waiting_vehicles": 28,
+        "average_wait": 53.15,
+        "attack_active": false
+    },
+    {
+        "time": 226,
+        "phase": 2,
+        "active_vehicles": 33,
+        "waiting_vehicles": 28,
+        "average_wait": 53.52,
+        "attack_active": false
+    },
+    {
+        "time": 227,
+        "phase": 2,
+        "active_vehicles": 33,
+        "waiting_vehicles": 29,
+        "average_wait": 53.79,
+        "attack_active": false
+    },
+    {
+        "time": 228,
+        "phase": 2,
+        "active_vehicles": 34,
+        "waiting_vehicles": 29,
+        "average_wait": 52.35,
+        "attack_active": false
+    },
+    {
+        "time": 229,
+        "phase": 2,
+        "active_vehicles": 34,
+        "waiting_vehicles": 30,
+        "average_wait": 52.41,
+        "attack_active": false
+    },
+    {
+        "time": 230,
+        "phase": 2,
+        "active_vehicles": 33,
+        "waiting_vehicles": 31,
+        "average_wait": 53.97,
+        "attack_active": false
+    },
+    {
+        "time": 231,
+        "phase": 2,
+        "active_vehicles": 34,
+        "waiting_vehicles": 31,
+        "average_wait": 52.29,
+        "attack_active": false
+    },
+    {
+        "time": 232,
+        "phase": 2,
+        "active_vehicles": 34,
+        "waiting_vehicles": 31,
+        "average_wait": 52.15,
+        "attack_active": false
+    },
+    {
+        "time": 233,
+        "phase": 2,
+        "active_vehicles": 34,
+        "waiting_vehicles": 31,
+        "average_wait": 51.97,
+        "attack_active": false
+    },
+    {
+        "time": 234,
+        "phase": 2,
+        "active_vehicles": 35,
+        "waiting_vehicles": 31,
+        "average_wait": 50.31,
+        "attack_active": false
+    },
+    {
+        "time": 235,
+        "phase": 2,
+        "active_vehicles": 32,
+        "waiting_vehicles": 28,
+        "average_wait": 46.5,
+        "attack_active": false
+    },
+    {
+        "time": 236,
+        "phase": 2,
+        "active_vehicles": 31,
+        "waiting_vehicles": 27,
+        "average_wait": 45.06,
+        "attack_active": false
+    },
+    {
+        "time": 237,
+        "phase": 2,
+        "active_vehicles": 31,
+        "waiting_vehicles": 27,
+        "average_wait": 42.32,
+        "attack_active": false
+    },
+    {
+        "time": 238,
+        "phase": 2,
+        "active_vehicles": 29,
+        "waiting_vehicles": 25,
+        "average_wait": 39.24,
+        "attack_active": false
+    },
+    {
+        "time": 239,
+        "phase": 2,
+        "active_vehicles": 29,
+        "waiting_vehicles": 25,
+        "average_wait": 39.38,
+        "attack_active": false
+    },
+    {
+        "time": 240,
+        "phase": 2,
+        "active_vehicles": 30,
+        "waiting_vehicles": 25,
+        "average_wait": 38.27,
+        "attack_active": false
+    },
+    {
+        "time": 241,
+        "phase": 2,
+        "active_vehicles": 29,
+        "waiting_vehicles": 24,
+        "average_wait": 37.21,
+        "attack_active": false
+    },
+    {
+        "time": 242,
+        "phase": 2,
+        "active_vehicles": 26,
+        "waiting_vehicles": 21,
+        "average_wait": 33.58,
+        "attack_active": false
+    },
+    {
+        "time": 243,
+        "phase": 2,
+        "active_vehicles": 25,
+        "waiting_vehicles": 21,
+        "average_wait": 30.4,
+        "attack_active": false
+    },
+    {
+        "time": 244,
+        "phase": 2,
+        "active_vehicles": 25,
+        "waiting_vehicles": 21,
+        "average_wait": 30.6,
+        "attack_active": false
+    },
+    {
+        "time": 245,
+        "phase": 2,
+        "active_vehicles": 23,
+        "waiting_vehicles": 19,
+        "average_wait": 30.48,
+        "attack_active": false
+    },
+    {
+        "time": 246,
+        "phase": 2,
+        "active_vehicles": 24,
+        "waiting_vehicles": 19,
+        "average_wait": 29.33,
+        "attack_active": false
+    },
+    {
+        "time": 247,
+        "phase": 2,
+        "active_vehicles": 23,
+        "waiting_vehicles": 18,
+        "average_wait": 29.35,
+        "attack_active": false
+    },
+    {
+        "time": 248,
+        "phase": 2,
+        "active_vehicles": 22,
+        "waiting_vehicles": 17,
+        "average_wait": 30.27,
+        "attack_active": false
+    },
+    {
+        "time": 249,
+        "phase": 2,
+        "active_vehicles": 23,
+        "waiting_vehicles": 17,
+        "average_wait": 29.04,
+        "attack_active": false
+    },
+    {
+        "time": 250,
+        "phase": 2,
+        "active_vehicles": 21,
+        "waiting_vehicles": 16,
+        "average_wait": 30.95,
+        "attack_active": false
+    },
+    {
+        "time": 251,
+        "phase": 2,
+        "active_vehicles": 20,
+        "waiting_vehicles": 15,
+        "average_wait": 28.65,
+        "attack_active": false
+    },
+    {
+        "time": 252,
+        "phase": 2,
+        "active_vehicles": 20,
+        "waiting_vehicles": 14,
+        "average_wait": 24.95,
+        "attack_active": false
+    },
+    {
+        "time": 253,
+        "phase": 2,
+        "active_vehicles": 18,
+        "waiting_vehicles": 13,
+        "average_wait": 23.67,
+        "attack_active": false
+    },
+    {
+        "time": 254,
+        "phase": 2,
+        "active_vehicles": 18,
+        "waiting_vehicles": 13,
+        "average_wait": 23.94,
+        "attack_active": false
+    },
+    {
+        "time": 255,
+        "phase": 2,
+        "active_vehicles": 18,
+        "waiting_vehicles": 12,
+        "average_wait": 20.17,
+        "attack_active": false
+    },
+    {
+        "time": 256,
+        "phase": 2,
+        "active_vehicles": 17,
+        "waiting_vehicles": 11,
+        "average_wait": 20.47,
+        "attack_active": false
+    },
+    {
+        "time": 257,
+        "phase": 2,
+        "active_vehicles": 17,
+        "waiting_vehicles": 11,
+        "average_wait": 20.65,
+        "attack_active": false
+    },
+    {
+        "time": 258,
+        "phase": 2,
+        "active_vehicles": 17,
+        "waiting_vehicles": 11,
+        "average_wait": 20.82,
+        "attack_active": false
+    },
+    {
+        "time": 259,
+        "phase": 2,
+        "active_vehicles": 17,
+        "waiting_vehicles": 11,
+        "average_wait": 21.0,
+        "attack_active": false
+    },
+    {
+        "time": 260,
+        "phase": 2,
+        "active_vehicles": 17,
+        "waiting_vehicles": 11,
+        "average_wait": 21.18,
+        "attack_active": false
+    },
+    {
+        "time": 261,
+        "phase": 2,
+        "active_vehicles": 16,
+        "waiting_vehicles": 10,
+        "average_wait": 18.12,
+        "attack_active": false
+    },
+    {
+        "time": 262,
+        "phase": 2,
+        "active_vehicles": 16,
+        "waiting_vehicles": 10,
+        "average_wait": 18.38,
+        "attack_active": false
+    },
+    {
+        "time": 263,
+        "phase": 2,
+        "active_vehicles": 15,
+        "waiting_vehicles": 9,
+        "average_wait": 15.93,
+        "attack_active": false
+    },
+    {
+        "time": 264,
+        "phase": 2,
+        "active_vehicles": 15,
+        "waiting_vehicles": 8,
+        "average_wait": 15.93,
+        "attack_active": false
+    },
+    {
+        "time": 265,
+        "phase": 2,
+        "active_vehicles": 15,
+        "waiting_vehicles": 8,
+        "average_wait": 16.2,
+        "attack_active": false
+    },
+    {
+        "time": 266,
+        "phase": 2,
+        "active_vehicles": 13,
+        "waiting_vehicles": 6,
+        "average_wait": 14.69,
+        "attack_active": false
+    },
+    {
+        "time": 267,
+        "phase": 3,
+        "active_vehicles": 14,
+        "waiting_vehicles": 6,
+        "average_wait": 13.93,
+        "attack_active": false
+    },
+    {
+        "time": 268,
+        "phase": 3,
+        "active_vehicles": 14,
+        "waiting_vehicles": 6,
+        "average_wait": 14.21,
+        "attack_active": false
+    },
+    {
+        "time": 269,
+        "phase": 3,
+        "active_vehicles": 14,
+        "waiting_vehicles": 6,
+        "average_wait": 14.5,
+        "attack_active": false
+    },
+    {
+        "time": 270,
+        "phase": 0,
+        "active_vehicles": 14,
+        "waiting_vehicles": 7,
+        "average_wait": 14.64,
+        "attack_active": false
+    },
+    {
+        "time": 271,
+        "phase": 0,
+        "active_vehicles": 13,
+        "waiting_vehicles": 6,
+        "average_wait": 13.38,
+        "attack_active": false
+    },
+    {
+        "time": 272,
+        "phase": 0,
+        "active_vehicles": 11,
+        "waiting_vehicles": 6,
+        "average_wait": 15.82,
+        "attack_active": false
+    },
+    {
+        "time": 273,
+        "phase": 0,
+        "active_vehicles": 12,
+        "waiting_vehicles": 7,
+        "average_wait": 14.58,
+        "attack_active": false
+    },
+    {
+        "time": 274,
+        "phase": 0,
+        "active_vehicles": 11,
+        "waiting_vehicles": 7,
+        "average_wait": 13.64,
+        "attack_active": false
+    },
+    {
+        "time": 275,
+        "phase": 0,
+        "active_vehicles": 10,
+        "waiting_vehicles": 7,
+        "average_wait": 15.2,
+        "attack_active": false
+    },
+    {
+        "time": 276,
+        "phase": 0,
+        "active_vehicles": 11,
+        "waiting_vehicles": 7,
+        "average_wait": 14.0,
+        "attack_active": false
+    },
+    {
+        "time": 277,
+        "phase": 0,
+        "active_vehicles": 11,
+        "waiting_vehicles": 7,
+        "average_wait": 14.18,
+        "attack_active": false
+    },
+    {
+        "time": 278,
+        "phase": 0,
+        "active_vehicles": 11,
+        "waiting_vehicles": 7,
+        "average_wait": 14.36,
+        "attack_active": false
+    },
+    {
+        "time": 279,
+        "phase": 0,
+        "active_vehicles": 12,
+        "waiting_vehicles": 7,
+        "average_wait": 13.33,
+        "attack_active": false
+    },
+    {
+        "time": 280,
+        "phase": 0,
+        "active_vehicles": 11,
+        "waiting_vehicles": 6,
+        "average_wait": 11.0,
+        "attack_active": false
+    },
+    {
+        "time": 281,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 4,
+        "average_wait": 5.22,
+        "attack_active": false
+    },
+    {
+        "time": 282,
+        "phase": 0,
+        "active_vehicles": 10,
+        "waiting_vehicles": 4,
+        "average_wait": 4.9,
+        "attack_active": false
+    },
+    {
+        "time": 283,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 3,
+        "average_wait": 2.56,
+        "attack_active": false
+    },
+    {
+        "time": 284,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 4,
+        "average_wait": 2.89,
+        "attack_active": false
+    },
+    {
+        "time": 285,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 3,
+        "average_wait": 3.0,
+        "attack_active": false
+    },
+    {
+        "time": 286,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 3,
+        "average_wait": 3.33,
+        "attack_active": false
+    },
+    {
+        "time": 287,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 3,
+        "average_wait": 3.67,
+        "attack_active": false
+    },
+    {
+        "time": 288,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 3,
+        "average_wait": 4.0,
+        "attack_active": false
+    },
+    {
+        "time": 289,
+        "phase": 0,
+        "active_vehicles": 8,
+        "waiting_vehicles": 4,
+        "average_wait": 5.0,
+        "attack_active": false
+    },
+    {
+        "time": 290,
+        "phase": 0,
+        "active_vehicles": 8,
+        "waiting_vehicles": 4,
+        "average_wait": 5.5,
+        "attack_active": false
+    },
+    {
+        "time": 291,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 4,
+        "average_wait": 5.33,
+        "attack_active": false
+    },
+    {
+        "time": 292,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 4,
+        "average_wait": 5.78,
+        "attack_active": false
+    },
+    {
+        "time": 293,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 5,
+        "average_wait": 6.33,
+        "attack_active": false
+    },
+    {
+        "time": 294,
+        "phase": 0,
+        "active_vehicles": 10,
+        "waiting_vehicles": 5,
+        "average_wait": 6.2,
+        "attack_active": false
+    },
+    {
+        "time": 295,
+        "phase": 0,
+        "active_vehicles": 10,
+        "waiting_vehicles": 5,
+        "average_wait": 6.7,
+        "attack_active": false
+    },
+    {
+        "time": 296,
+        "phase": 0,
+        "active_vehicles": 9,
+        "waiting_vehicles": 5,
+        "average_wait": 8.0,
+        "attack_active": false
+    },
+    {
+        "time": 297,
+        "phase": 0,
+        "active_vehicles": 10,
+        "waiting_vehicles": 5,
+        "average_wait": 7.7,
+        "attack_active": false
+    },
+    {
+        "time": 298,
+        "phase": 0,
+        "active_vehicles": 10,
+        "waiting_vehicles": 5,
+        "average_wait": 8.2,
+        "attack_active": false
+    },
+    {
+        "time": 299,
+        "phase": 0,
+        "active_vehicles": 10,
+        "waiting_vehicles": 5,
+        "average_wait": 8.7,
+        "attack_active": false
+    }
+]

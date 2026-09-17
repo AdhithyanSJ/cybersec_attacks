@@ -1,0 +1,26 @@
+{
+    "incident_id": "SCX-20260918-025954-FCE17E",
+    "timestamp": "2026-09-18T02:59:54.095080",
+    "target": "junction",
+    "threat": "TRAFFIC SIGNAL MANIPULATION",
+    "severity": "HIGH",
+    "detection_score": 3,
+    "indicators": {
+        "abnormal_signal_behavior": true,
+        "queue_threshold_exceeded": true,
+        "waiting_time_threshold_exceeded": true
+    },
+    "baseline": {
+        "maximum_queue": 11,
+        "maximum_average_wait": 16.73
+    },
+    "observed": {
+        "maximum_queue": 31,
+        "maximum_average_wait": 53.97,
+        "longest_signal_phase": 132
+    },
+    "response": {
+        "status": "CONTROLLER_RESTORED",
+        "action": "Traffic controller restored"
+    }
+}

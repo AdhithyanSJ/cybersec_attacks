@@ -1,0 +1,14 @@
+{
+    "timestamp": "2026-09-20T23:57:51.267965",
+    "target": "CCTV",
+    "camera_id": "CAM-01",
+    "camera_location": "Main Street Intersection",
+    "authentication_failures": 2,
+    "successful_unauthorized_login": true,
+    "unauthorized_session": true,
+    "attacker_session": "ATTACKER-235749",
+    "legitimate_session_terminated": true,
+    "stream_interrupted": true,
+    "attack": "CCTV AUTHENTICATION AND SESSION COMPROMISE",
+    "impact": "UNAUTHORIZED CAMERA ACCESS"
+}

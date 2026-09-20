@@ -1,0 +1,12 @@
+{
+    "incident_id": "SCX-20260920-111954",
+    "timestamp": "2026-09-20T11:19:54.086224",
+    "target": "OpenPLC",
+    "threat": "SCADA CONTROL MANIPULATION",
+    "severity": "HIGH",
+    "detection_score": "3/3",
+    "observed_state": 1,
+    "authorized_state": 0,
+    "response": "BREAKER_STATE_RESTORED",
+    "restored_state": 0
+}

@@ -1,0 +1,9 @@
+{
+    "frontend": 5173,
+    "backend": 5000,
+    "cctv": 5001,
+    "network": 5002,
+    "juice_shop": 3000,
+    "burp": 8080,
+    "openplc_modbus": 502
+}

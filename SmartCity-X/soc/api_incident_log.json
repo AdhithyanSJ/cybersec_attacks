@@ -1,0 +1,17 @@
+{
+    "incident_id": "SCX-API-20260920-230420",
+    "timestamp": "2026-09-20T23:04:20.036118",
+    "threat": "UNAUTHORIZED ADMIN API ACCESS",
+    "severity": "HIGH",
+    "target": "http://127.0.0.1:3000",
+    "endpoint": "/rest/admin/application-configuration",
+    "method": "GET",
+    "http_status": 200,
+    "authorization_header": false,
+    "admin_configuration_exposed": true,
+    "security_related_data_exposed": true,
+    "detection_indicators": 6,
+    "response": "API_ACCESS_CONTAINED",
+    "status": "CONTAINED",
+    "response_type": "SIMULATED_SOC_RESPONSE"
+}

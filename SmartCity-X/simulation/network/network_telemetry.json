@@ -1,0 +1,11 @@
+{
+    "timestamp": "2026-09-20T16:08:11.260847",
+    "authorized_ssid": "SMARTCITY_PUBLIC",
+    "observed_ssid": "SMARTCITY_PUBLIC_FREE",
+    "authorized_gateway": "192.168.50.1",
+    "observed_gateway": "192.168.50.99",
+    "ssid_mismatch": true,
+    "gateway_mismatch": true,
+    "unauthorized_ap": true,
+    "attack": "ROGUE_ACCESS_POINT"
+}

@@ -1,0 +1,19 @@
+{
+    "actions": [
+        "ATTACKER_SESSION_REVOKED",
+        "UNAUTHORIZED_ACCESS_CONTAINED"
+    ],
+    "authentication_failures": 2,
+    "camera_id": "CAM-01",
+    "camera_location": "Main Street Intersection",
+    "incident_id": "SCX-CCTV-20260920-211445-FE27E9",
+    "legitimate_session_terminated": true,
+    "response": "CONTAINMENT",
+    "response_type": "SIMULATED_SOC_RESPONSE",
+    "severity": "HIGH",
+    "status": "CONTAINED",
+    "stream_interrupted": true,
+    "threat": "CCTV AUTHENTICATION AND SESSION COMPROMISE",
+    "timestamp": "2026-09-20T21:14:45.885781+00:00",
+    "unauthorized_session": true
+}

@@ -1,14 +1,19 @@
 {
-    "timestamp": "2026-09-20T23:57:51.267965",
-    "target": "CCTV",
+    "attack": "CCTV AUTHENTICATION AND SESSION COMPROMISE",
+    "attacker_session": "ATTACKER-fa3c1f402143689c",
+    "authentication_failures": 2,
+    "authoritative_state": {
+        "authentication": "COMPROMISED",
+        "session": "UNAUTHORIZED",
+        "stream": "INTERRUPTED"
+    },
     "camera_id": "CAM-01",
     "camera_location": "Main Street Intersection",
-    "authentication_failures": 2,
-    "successful_unauthorized_login": true,
-    "unauthorized_session": true,
-    "attacker_session": "ATTACKER-235749",
+    "impact": "UNAUTHORIZED CAMERA ACCESS",
     "legitimate_session_terminated": true,
     "stream_interrupted": true,
-    "attack": "CCTV AUTHENTICATION AND SESSION COMPROMISE",
-    "impact": "UNAUTHORIZED CAMERA ACCESS"
+    "successful_unauthorized_login": true,
+    "target": "CCTV",
+    "timestamp": "2026-09-20T20:55:22.936465+00:00",
+    "unauthorized_session": true
 }

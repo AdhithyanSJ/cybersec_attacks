@@ -5,6 +5,7 @@ from flask import Flask, jsonify
 from .config import load_ports
 from .errors import register_error_handlers
 from .routes.cctv import cctv_bp
+from .routes.attacks import attacks_bp
 from .schemas import success_response
 from .services.cctv_service import CCTVService
 
@@ -14,6 +15,7 @@ def create_app() -> Flask:
     app.config["PORTS"] = load_ports()
     app.extensions["cctv_service"] = CCTVService()
     app.register_blueprint(cctv_bp)
+    app.register_blueprint(attacks_bp)
     register_error_handlers(app)
 
     @app.get("/api/health")

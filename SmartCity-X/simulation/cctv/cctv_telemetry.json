@@ -1,6 +1,6 @@
 {
     "attack": "CCTV AUTHENTICATION AND SESSION COMPROMISE",
-    "attacker_session": "ATTACKER-fa3c1f402143689c",
+    "attacker_session": "ATTACKER-a74743ab0338f393",
     "authentication_failures": 2,
     "authoritative_state": {
         "authentication": "COMPROMISED",
@@ -14,6 +14,6 @@
     "stream_interrupted": true,
     "successful_unauthorized_login": true,
     "target": "CCTV",
-    "timestamp": "2026-09-20T20:55:22.936465+00:00",
+    "timestamp": "2026-09-20T21:37:37.695062+00:00",
     "unauthorized_session": true
 }

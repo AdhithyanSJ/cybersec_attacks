@@ -8,6 +8,7 @@ from .routes.cctv import cctv_bp
 from .routes.attacks import attacks_bp
 from .schemas import success_response
 from .services.cctv_service import CCTVService
+from .routes.scada import scada_bp
 
 from flask_cors import CORS
 
@@ -23,6 +24,7 @@ def create_app() -> Flask:
     app.extensions["cctv_service"] = CCTVService()
     app.register_blueprint(cctv_bp)
     app.register_blueprint(attacks_bp)
+    app.register_blueprint(scada_bp)
     register_error_handlers(app)
 
     @app.get("/api/health")

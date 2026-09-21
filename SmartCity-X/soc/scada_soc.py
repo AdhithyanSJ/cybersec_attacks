@@ -72,7 +72,8 @@ print("AUTOMATED RESPONSE")
 print("=" * 60)
 
 print("\n[RESPONSE] SCADA control manipulation confirmed.")
-print("[RESPONSE] Revoking unauthorized control state...")
+print("[RESPONSE] Unauthorized control state contained.")
+print("[RESPONSE] Automatic restoration intentionally disabled.")
 
 client = ModbusTcpClient(
     PLC_IP,
@@ -84,21 +85,7 @@ if not client.connect():
     raise SystemExit
 
 print("[RESPONSE] Connected to OpenPLC.")
-print("[RESPONSE] Restoring authorized breaker state...")
-
-write_result = client.write_register(
-    address=BREAKER_REGISTER,
-    value=AUTHORIZED_STATE
-)
-
-if write_result.isError():
-    print("[ERROR] Failed to restore breaker state.")
-    client.close()
-    raise SystemExit
-
-# ---------------------------------------------------------
-# VERIFY RESTORATION
-# ---------------------------------------------------------
+print("[RESPONSE] Verifying the manipulated breaker state...")
 
 verify = client.read_holding_registers(
     address=BREAKER_REGISTER,
@@ -110,19 +97,17 @@ if verify.isError():
     client.close()
     raise SystemExit
 
-restored_value = verify.registers[0]
+final_value = verify.registers[0]
 
-if restored_value == AUTHORIZED_STATE:
+if final_value != observed_value:
     print(
-        f"[RESPONSE] Breaker Command restored: "
-        f"{restored_value}"
+        f"[ERROR] PLC state changed unexpectedly during containment: "
+        f"{final_value}"
     )
-    print("[RESPONSE] PLC control state restored.")
-else:
-    print(
-        f"[ERROR] Unexpected PLC state: "
-        f"{restored_value}"
-    )
+    client.close()
+    raise SystemExit
+
+print(f"[RESPONSE] Breaker Command remains: {final_value}")
 
 client.close()
 
@@ -137,10 +122,10 @@ incident = {
     "threat": "SCADA CONTROL MANIPULATION",
     "severity": "HIGH",
     "detection_score": "3/3",
-    "observed_state": observed_value,
+    "observed_state": final_value,
     "authorized_state": AUTHORIZED_STATE,
-    "response": "BREAKER_STATE_RESTORED",
-    "restored_state": restored_value
+    "response": "CONTROL_STATE_CONTAINED",
+    "final_state": final_value
 }
 
 INCIDENT_FILE = (
@@ -162,7 +147,7 @@ print("=" * 60)
 print(f"Incident ID: {incident_id}")
 print("Threat:      SCADA CONTROL MANIPULATION")
 print("Severity:    HIGH")
-print("Response:    BREAKER_STATE_RESTORED")
-print(f"Final state: {restored_value}")
+print("Response:    CONTROL_STATE_CONTAINED")
+print(f"Final state: {final_value}")
 
 print("=" * 60)

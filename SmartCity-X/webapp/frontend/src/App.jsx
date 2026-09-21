@@ -75,6 +75,7 @@ function Dashboard({ saveResult }) {
 function Result({ id, mode, cachedResult, saveResult }) {
   const config = ATTACKS[id]
   const [state, setState] = useState({ loading: false, data: cachedResult || null, error: '' })
+  const [recovery, setRecovery] = useState({ loading: false, data: null, error: '' })
   const shouldUseCacheOnly = id === 'cctv'
   const run = useCallback(() => {
     if (shouldUseCacheOnly) return
@@ -97,7 +98,21 @@ function Result({ id, mode, cachedResult, saveResult }) {
   if (state.error) return <div className="error-panel panel"><h2>BACKEND OFFLINE</h2><p>{state.error}</p><button onClick={run}>RETRY</button></div>
   if (!data) return <div className="error-panel panel"><h2>NO COMPLETED CCTV ATTACK</h2><p>Launch the CCTV attack from the dashboard or CCTV monitor before opening SOC response.</p><button onClick={() => navigate(id === 'cctv' ? '/cctv' : '/')}>RETURN</button></div>
   const attack = data.attack || {}; const result = attack.result || {}; const detection = data.detection || {}; const soc = data.soc || {}
-  return <div className="result-page"><div className="page-heading"><div><p className="eyebrow">{mode === 'soc' ? 'SOC / INCIDENT REVIEW' : 'ATTACK / EXECUTION TRACE'}</p><h1>{config.name}</h1><p className="target">TARGET <b>{config.target}</b></p></div><Status value={soc.status || data.execution_status} /></div><div className="flow"><span>NORMAL STATE</span><b>→</b><span className="highlight">ATTACK IMPACT</span><b>→</b><span>SOC DETECTION</span><b>→</b><span>SOC RESPONSE</span></div><div className="result-grid"><section className="panel result-section"><div className="section-title">ATTACK EXECUTION</div><DataBlock title="Status" value={result.status} /><DataBlock title="Execution evidence" value={result.stdout || result.stderr} /><DataBlock title="Telemetry" value={result.telemetry} /></section><section className="panel result-section"><div className="section-title">DETECTION</div><DataBlock title="Detector status" value={detection.status} /><DataBlock title="Detection evidence" value={detection.stdout || detection.telemetry} /></section><section className="panel result-section"><div className="section-title">SOC RESPONSE</div><DataBlock title="SOC status" value={soc.status} /><DataBlock title="Response evidence" value={soc.stdout || soc.stderr} /><DataBlock title="Incident" value={soc.incident} /></section><section className="panel result-section"><div className="section-title">FINAL STATE</div><DataBlock title="Backend final state" value={data.final_state} /></section></div>{mode === 'attack' && <button className="primary result-next" onClick={() => navigate(pathFor('soc', id))}>OPEN SOC RESPONSE →</button>}</div>
+  const incident = soc.incident || {}
+  const scadaContained = id === 'scada' && (
+    data.final_state === 'CONTROL_STATE_CONTAINED'
+    || incident.response === 'CONTROL_STATE_CONTAINED'
+  ) && (Number(incident.final_state ?? incident.observed_state) === 1)
+  async function recoverScada() {
+    setRecovery({ loading: true, data: null, error: '' })
+    try {
+      const recoveryData = await api.resetScada()
+      setRecovery({ loading: false, data: recoveryData, error: '' })
+    } catch (recoveryError) {
+      setRecovery({ loading: false, data: null, error: recoveryError.message })
+    }
+  }
+  return <div className="result-page"><div className="page-heading"><div><p className="eyebrow">{mode === 'soc' ? 'SOC / INCIDENT REVIEW' : 'ATTACK / EXECUTION TRACE'}</p><h1>{config.name}</h1><p className="target">TARGET <b>{config.target}</b></p></div><Status value={soc.status || data.execution_status} /></div><div className="flow"><span>NORMAL STATE</span><b>→</b><span className="highlight">ATTACK IMPACT</span><b>→</b><span>SOC DETECTION</span><b>→</b><span>SOC RESPONSE</span></div><div className="result-grid"><section className="panel result-section"><div className="section-title">ATTACK EXECUTION</div><DataBlock title="Status" value={result.status} /><DataBlock title="Execution evidence" value={result.stdout || result.stderr} /><DataBlock title="Telemetry" value={result.telemetry} /></section><section className="panel result-section"><div className="section-title">DETECTION</div><DataBlock title="Detector status" value={detection.status} /><DataBlock title="Detection evidence" value={detection.stdout || detection.telemetry} /></section><section className="panel result-section"><div className="section-title">SOC RESPONSE</div><DataBlock title="SOC status" value={soc.status} /><DataBlock title="Response evidence" value={soc.stdout || soc.stderr} /><DataBlock title="Incident" value={soc.incident} /></section><section className="panel result-section"><div className="section-title">FINAL STATE</div><DataBlock title="Backend final state" value={data.final_state} />{scadaContained && <div className="manual-recovery"><button className="primary" type="button" onClick={recoverScada} disabled={recovery.loading}>{recovery.loading ? 'RESETTING...' : 'MANUAL RESET'}</button>{recovery.error && <div className="error" role="alert">{recovery.error}</div>}{recovery.data?.status === 'RECOVERED' && <div className="recovery-success">Manual recovery completed<br />Breaker Command: {recovery.data.verified_value}</div>}</div>}</section></div>{mode === 'attack' && <button className="primary result-next" onClick={() => navigate(pathFor('soc', id))}>OPEN SOC RESPONSE →</button>}</div>
 }
 
 function CameraPanel({ camera, videoRef }) {

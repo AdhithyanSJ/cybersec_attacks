@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-09-21T09:56:48.263565",
+    "timestamp": "2026-09-21T12:07:28.705578",
     "target": "OpenPLC",
     "ip": "127.0.0.1",
     "port": 502,
     "protocol": "Modbus TCP",
     "register": 1024,
     "variable": "%MW0",
-    "normal_value": 0,
+    "normal_value": 1,
     "observed_value": 1,
-    "unauthorized_write": true,
+    "unauthorized_write": false,
     "attack": "SCADA CONTROL MANIPULATION"
 }

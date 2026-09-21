@@ -21,4 +21,5 @@ export const api = {
   health: () => request('/api/health'),
   camera: (id) => request(`/api/cctv/${id}`),
   resetCamera: (id) => request(`/api/cctv/${id}/reset`, { method: 'POST' }),
+  resetScada: () => request('/api/scada/reset', { method: 'POST' }),
 }

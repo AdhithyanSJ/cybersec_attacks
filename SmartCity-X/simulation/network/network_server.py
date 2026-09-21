@@ -1,20 +1,12 @@
 import socket
-import json
-from datetime import datetime
 
 HOST = "127.0.0.1"
 PORT = 5002
-
-AUTHORIZED_NETWORK = "SMARTCITY_PUBLIC"
-AUTHORIZED_GATEWAY = "192.168.50.1"
 
 print("=" * 60)
 print("SMARTCITY-X PUBLIC NETWORK")
 print("=" * 60)
 
-print(f"\nNetwork:  {AUTHORIZED_NETWORK}")
-print("Status:   ONLINE")
-print(f"Gateway:  {AUTHORIZED_GATEWAY}")
 print(f"Service:  {HOST}:{PORT}")
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -32,19 +24,33 @@ while True:
     print("[CLIENT CONNECTED]")
     print(f"Client address: {address}")
 
-    response = {
-        "network": AUTHORIZED_NETWORK,
-        "gateway": AUTHORIZED_GATEWAY,
-        "status": "AUTHORIZED",
-        "timestamp": datetime.now().isoformat()
-    }
+    payload = connection.recv(4096).decode("ascii")
+    metadata = {}
+    lines = payload.splitlines()
+    if not lines or lines[0] != "SMARTCITY-X NETWORK METADATA":
+        response = "ERROR=INVALID_METADATA\n"
+    else:
+        for line in lines[1:]:
+            key, separator, value = line.partition("=")
+            if separator and key in {"SSID", "GATEWAY"}:
+                metadata[key] = value
 
-    connection.sendall(
-        json.dumps(response).encode()
-    )
+        if set(metadata) != {"SSID", "GATEWAY"}:
+            response = "ERROR=INCOMPLETE_METADATA\n"
+        else:
+            response = (
+                "METADATA_RECEIVED\n"
+                f"SSID={metadata['SSID']}\n"
+                f"GATEWAY={metadata['GATEWAY']}\n"
+            )
+            print("\n[NETWORK METADATA]")
+            print(f"SSID:     {metadata['SSID']}")
+            print(f"Gateway:  {metadata['GATEWAY']}")
+
+    connection.sendall(response.encode("ascii"))
 
     connection.close()
 
-    print("[+] Authorized network information sent")
+    print("[+] Network metadata response sent")
     print()
     

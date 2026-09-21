@@ -1,6 +1,6 @@
 {
-    "incident_id": "SCX-API-20260921-034236",
-    "timestamp": "2026-09-21T03:42:36.138962",
+    "incident_id": "SCX-API-20260921-045253",
+    "timestamp": "2026-09-21T04:52:53.932731",
     "threat": "UNAUTHORIZED ADMIN API ACCESS",
     "severity": "HIGH",
     "target": "http://127.0.0.1:3000",

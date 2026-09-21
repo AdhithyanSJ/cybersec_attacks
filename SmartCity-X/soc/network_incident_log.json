@@ -1,6 +1,6 @@
 {
-    "incident_id": "SCX-20260921-030545",
-    "timestamp": "2026-09-21T03:05:45.284832",
+    "incident_id": "SCX-20260921-100208",
+    "timestamp": "2026-09-21T10:02:08.759939",
     "threat": "ROGUE ACCESS POINT",
     "severity": "HIGH",
     "detection_score": "3/3",

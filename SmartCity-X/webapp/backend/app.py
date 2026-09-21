@@ -9,9 +9,16 @@ from .routes.attacks import attacks_bp
 from .schemas import success_response
 from .services.cctv_service import CCTVService
 
+from flask_cors import CORS
+
 
 def create_app() -> Flask:
     app = Flask(__name__)
+    CORS(app, resources={
+    r"/api/*": {
+        "origins": ["http://localhost:5173"]
+    }
+})
     app.config["PORTS"] = load_ports()
     app.extensions["cctv_service"] = CCTVService()
     app.register_blueprint(cctv_bp)

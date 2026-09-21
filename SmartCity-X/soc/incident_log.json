@@ -1,6 +1,6 @@
 {
-    "incident_id": "SCX-20260921-034736-AC591B",
-    "timestamp": "2026-09-21T03:47:36.178480",
+    "incident_id": "SCX-20260921-105451-326A35",
+    "timestamp": "2026-09-21T10:54:51.621866",
     "target": "junction",
     "threat": "TRAFFIC SIGNAL MANIPULATION",
     "severity": "HIGH",

@@ -1,5 +1,8 @@
 import json
+import subprocess
+import sys
 from datetime import datetime
+from pathlib import Path
 
 AUTHORIZED_SSID = "SMARTCITY_PUBLIC"
 AUTHORIZED_GATEWAY = "192.168.50.1"
@@ -38,6 +41,22 @@ telemetry = {
 
 with open("network_telemetry.json", "w") as f:
     json.dump(telemetry, f, indent=4)
+
+client_script = Path(__file__).with_name("client.py")
+client_result = subprocess.run(
+    [sys.executable, str(client_script), "--rogue"],
+    cwd=client_script.parent,
+    capture_output=True,
+    text=True,
+    check=False,
+)
+print(client_result.stdout, end="")
+if client_result.stderr:
+    print(client_result.stderr, file=sys.stderr, end="")
+if client_result.returncode != 0:
+    raise RuntimeError(
+        "Rogue network metadata could not be transmitted through the local simulator"
+    )
 
 print("\n[IMPACT]")
 print("[!] Client network identity has changed")
